@@ -82,3 +82,7 @@ const truthyOrFalsy = valeur => {
 
 //8 - numImaginaryFriends()
 const numImaginaryFriends = nbFriends => Math.ceil(0.25 * nbFriends);
+
+//9 - sillySentence()
+const sillySentence = (adj, verb, noun) => `I am so ${adj} because I ${verb} coding! Time to write some more awesome ${noun}!`;
+

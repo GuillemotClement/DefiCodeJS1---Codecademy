@@ -71,6 +71,8 @@ Le nombre d’amis imaginaires d’une personne représente toujours 25 % (ou 1/
 
 Puisque les amis ne peuvent venir qu’en nombres entiers, assurez-vous d’arrondir votre résultat au nombre entier le plus proche avant de le renvoyer.
 
+### 9 - sillySentence()
+Écrivez une fonction, `sillySentence()`, qui a 3 paramètres de chaîne et renvoie la phrase idiote avec les blancs remplis par les arguments passés dans la fonction.
 
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future
 
