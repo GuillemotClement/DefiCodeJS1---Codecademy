@@ -42,6 +42,15 @@ Si le nombre est inférieur à 0 ou supérieur à 140, le programme devrait renv
 
 Pour améliorer l'exo, créer des fonctions spécialisées pour chaque tâches
 
+### 5 - reportingForDuty()
+Write a function, `reportingForDuty()`, that has two string parameters, `rank` and `lastName`, and returns a string in the following format: `‘rank lastName reporting for duty!’`
+
+
+
+
+
+
+
 
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future
 
