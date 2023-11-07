@@ -1,22 +1,10 @@
 //1 - canIVote()
 const canIVote = age => age >= 18 ? true : false;
 
-// 2 - agreeOrDisagree()
-// Écrivez une fonction, `agreeOrDisagree()`, qui prend deux chaînes et renvoie `'You agree!'` si les deux chaînes sont identiques et `'You disagree!'` si les deux chaînes sont différentes.
-
+//2 - agreeOrDisagree()
 const agreeOrDisagree = (string1, string2) => string1 === string2 ? 'You agree!' : 'You disagree!';
 
-// ### 3 - lifePhase()
-// Écrivez une fonction, `lifePhase()`, qui prend en compte l'age , d'une personne sous forme de nombre et renvoie la phase de sa vie dans laquelle elle se trouve.
-
-// Voici les classifications :
-// 0-3 devrait renvoyer `'baby'`
-// 4-12 devrait renvoyer `'child'`
-// 13-19 devrait renvoyer `'teen'`
-// 20-64 devrait renvoyer `'adult'`
-// 65-140 devrait renvoyer `'senior citizen'`
-// Si le nombre est inférieur à 0 ou supérieur à 140, le programme devrait renvoyer `'This is not a valid age'`
-
+//3 - lifePhase()
 const lifePhase = age => {
     if(age >= 0 && age <= 3){
         return 'baby';
@@ -33,19 +21,7 @@ const lifePhase = age => {
     };
 };
 
-// ### 4 - finalGrade()
-// Écrivez une fonction, `finalGrade()`. Cela devrait:
-
-// prendre trois arguments de type numéro
-// trouve le `averagede` ces trois nombres
-// renvoie la note de la lettre (sous forme de chaîne) à laquelle `averagecorrespond`
-// return `Vous avez entré une note invalide.` si l'une des trois notes est inférieure à 0 ou supérieure à 100
-// 0-59 devrait revenir : `F`
-// 60-69 devrait revenir : `D`
-// 70-79 devrait revenir : `C`
-// 80-89 devrait revenir : `B`
-// 90-100 devrait revenir :`A`
-
+//4 - finalGrade()
 const finalGrade = (note1, note2, note3) => {
     //Vérification de la valeurs de chaque notes
     if(note1 < 0 || note1 > 100 && note2 < 0 || note2 > 100 && note3 < 0 || note3 > 100){
@@ -67,7 +43,31 @@ const finalGrade = (note1, note2, note3) => {
     };
 };
 
-// ### 5 - reportingForDuty()
-// Write a function, `reportingForDuty()`, that has two string parameters, `rank` and `lastName`, and returns a string in the following format: `‘rank lastName reporting for duty!’`
-
+//5 - reportingForDuty()
 const reportingForDuty = (rank, lastName) => `${rank} ${lastName} reporting for duty!`;
+
+
+//6 - calculateWeight()
+const calculateWeight = (earthWeight, planet) => {
+    switch(planet){
+        case 'Mercury':
+            return earthWeight * 0.378;
+            break;
+        case 'Venus':
+            return earthWeight * 0.907;
+            break;
+        case 'Mars':
+            return earthWeight * 0.377;
+            break;
+        case 'Jupiter':
+            return earthWeight * 2.36;
+            break;
+        case 'Saturn':
+            return earthWeight * 0.916;
+            break;
+        default:
+            return 'Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.';
+            break;
+    };
+};
+

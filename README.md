@@ -45,7 +45,20 @@ Pour améliorer l'exo, créer des fonctions spécialisées pour chaque tâches
 ### 5 - reportingForDuty()
 Write a function, `reportingForDuty()`, that has two string parameters, `rank` and `lastName`, and returns a string in the following format: `‘rank lastName reporting for duty!’`
 
+### 6 - calculateWeight()
+Écrivez une fonction, `calculateWeight()` qui prends deux paramètres : `earthWeight` `planet`
+- `earthWeight` un numéro
+- `planet` une chaîne
 
+Cette fonction renvoie un nombre représentant ce à quoi ce poids terrestre équivaudrait à la `planettransmission`.
+
+Gérez les cas suivants :
+- '`Mercury`'poids = `earthWeight* 0,378`
+- '`Venus`'poids = `earthWeight* 0,907`
+- '`Mars`'poids = `earthWeight* 0,377`
+- '`Jupiter`'poids = `earthWeight* 2,36`
+- '`Saturn`'poids = `earthWeight* 0,916`
+Pour toutes les autres entrées, retournez `Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.`
 
 
 
