@@ -86,3 +86,40 @@ const numImaginaryFriends = nbFriends => Math.ceil(0.25 * nbFriends);
 //9 - sillySentence()
 const sillySentence = (adj, verb, noun) => `I am so ${adj} because I ${verb} coding! Time to write some more awesome ${noun}!`;
 
+// 10 - howOld()
+const howOld = (age, year) => {
+// The following two lines make it so that our function always knows the current year.
+let dateToday = new Date();
+let thisYear = dateToday.getFullYear();
+// It is totally ok if your function used the current year directly!
+const yearDifference = year - thisYear
+const newAge = age + yearDifference
+if (newAge > age) {
+    return `You will be ${newAge} in the year ${year}`
+} else if (newAge < 0) {
+    return `The year ${year} was ${-newAge} years before you were born`
+} else {
+    return `You were ${newAge} in the year ${year}`
+}
+}
+
+//11 - tipCalculator()
+const tipCalculator = (quality, total) => {
+    if(quality === 'bad'){
+      let tips = 0;
+        tips = total * 1.05;
+        return tips - total;
+    }else if(quality === 'ok'){
+         tips = total * 1.15;
+        return tips - total;
+    }else if(quality === 'good'){
+        tips = total * 1.20;
+        return tips - total;
+    }else if(quality === 'excellent'){
+        tips = total * 1.30;
+        return tips - total;
+    }else {
+        tips = total * 1.18;
+        return tips - total;
+    }
+}

@@ -86,6 +86,16 @@ Si l'année est antérieure à leur naissance, vous devez renvoyer une chaîne a
 Si l'année se situe dans le passé mais pas avant la naissance de la personne, vous devez renvoyer une chaîne au format suivant :
 `'You were [calculated age] in the year [year passed in]'`
 
+### 11 - tipCalculator()
+Créez une fonction, `tipCalculator()`, qui a deux paramètres, une chaîne représentant le `qualityservice` reçu et un nombre représentant le `totalcoût`.
+
+Renvoie le pourboire, sous forme de nombre, en fonction de ce qui suit :
+« mauvais » devrait renvoyer un pourboire de 5 % « ok » devrait renvoyer
+un pourboire de 15 %
+« bon » devrait renvoyer un pourboire de 20 %
+« excellent » devrait renvoyer un pourboire de 30 %
+les autres entrées devraient par défaut être 18 %
+
 
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future
 
