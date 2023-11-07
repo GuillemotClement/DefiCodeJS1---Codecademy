@@ -74,6 +74,19 @@ Puisque les amis ne peuvent venir qu’en nombres entiers, assurez-vous d’arro
 ### 9 - sillySentence()
 Écrivez une fonction, `sillySentence()`, qui a 3 paramètres de chaîne et renvoie la phrase idiote avec les blancs remplis par les arguments passés dans la fonction.
 
+### 10 - howOld()
+Écrivez une fonction, `howOld()`, qui a deux paramètres numériques, `age` et `year`, et renvoie l'âge qu'avait age(ou aura) quelqu'un qui a actuellement cela pendant cette période year. Gérez trois cas différents :
+
+Si l'année est dans le futur, vous devez renvoyer une chaîne au format suivant :
+`'You will be [calculated age] in the year [year passed in]'`
+
+Si l'année est antérieure à leur naissance, vous devez renvoyer une chaîne au format suivant :
+`'The year [year passed in] was [calculated number of years] years before you were born'`
+
+Si l'année se situe dans le passé mais pas avant la naissance de la personne, vous devez renvoyer une chaîne au format suivant :
+`'You were [calculated age] in the year [year passed in]'`
+
+
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future
 
 
