@@ -96,6 +96,15 @@ un pourboire de 15 %
 « excellent » devrait renvoyer un pourboire de 30 %
 les autres entrées devraient par défaut être 18 %
 
+### 12 - toEmoticon()
+Écrivez une fonction, `toEmoticon()`, qui prend une chaîne et renvoie l'émoticône correspondante sous forme de chaîne. Utilisez un interrupteur/boîtier et couvrez ces cas :
+
+`shrug` devrait revenir `|_{"}_|`
+'`smiley face`'devrait revenir '`:)`'
+'`frowny face`'devrait revenir '`:(`'
+'`winky face`'devrait revenir '`;)`'
+'`heart`'devrait retourner '`<3`'
+toute autre entrée devrait revenir'`|_(* ~ *)_|`'
 
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future
 

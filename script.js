@@ -123,3 +123,20 @@ const tipCalculator = (quality, total) => {
         return tips - total;
     }
 }
+
+//12 toEmoticon()
+const toEmoticon = (string) => {
+    if(string === 'shrug'){
+        return '|_{"}_|';
+    }else if(string === 'smiley face'){
+        return ':)';
+    }else if(string === 'frowny face'){
+        return ':(';
+    }else if(string === 'winky face'){
+        return ';)';
+    }else if(string === 'heart'){
+        return '<3';
+    }else {
+        return '|_(* ~ *)_|';
+    }
+}
