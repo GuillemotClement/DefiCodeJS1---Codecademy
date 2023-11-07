@@ -71,3 +71,11 @@ const calculateWeight = (earthWeight, planet) => {
     };
 };
 
+//7 - truthyOrFalsy()
+const truthyOrFalsy = valeur => {
+    if(valeur){
+        return true;
+    }else{
+        return false;
+    };
+};

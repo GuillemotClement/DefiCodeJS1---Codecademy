@@ -60,7 +60,8 @@ Gérez les cas suivants :
 - '`Saturn`'poids = `earthWeight* 0,916`
 Pour toutes les autres entrées, retournez `Invalid Planet Entry. Try: Mercury, Venus, Mars, Jupiter, or Saturn.`
 
-
+### 7 - truthyOrFalsy()
+Il peut être difficile de savoir ce qui est vrai ou faux en JavaScript . Écrivez une fonction, `truthyOrFalsy()`, qui prend n'importe quelle valeur et renvoie `trues` i cette valeur est vraie et `false` si cette valeur est fausse .
 
 
 
