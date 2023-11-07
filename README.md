@@ -64,6 +64,12 @@ Pour toutes les autres entrées, retournez `Invalid Planet Entry. Try: Mercury, 
 Il peut être difficile de savoir ce qui est vrai ou faux en JavaScript . Écrivez une fonction, `truthyOrFalsy()`, qui prend n'importe quelle valeur et renvoie `trues` i cette valeur est vraie et `false` si cette valeur est fausse .
 
 
+### 8 - numImaginaryFriends()
+Le nombre d’amis imaginaires d’une personne représente toujours 25 % (ou 1/4) du total de ses amis.
+
+Écrivez une fonction, `numImaginaryFriends()`, qui prend en compte le nombre total d'amis d'une personne et renvoie le nombre d'amis imaginaires qu'elle a.
+
+Puisque les amis ne peuvent venir qu’en nombres entiers, assurez-vous d’arrondir votre résultat au nombre entier le plus proche avant de le renvoyer.
 
 
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future

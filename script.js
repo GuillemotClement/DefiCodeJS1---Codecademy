@@ -79,3 +79,6 @@ const truthyOrFalsy = valeur => {
         return false;
     };
 };
+
+//8 - numImaginaryFriends()
+const numImaginaryFriends = nbFriends => Math.ceil(0.25 * nbFriends);
