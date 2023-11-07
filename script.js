@@ -32,3 +32,37 @@ const lifePhase = age => {
         return 'This is not a valid age'
     };
 };
+
+// ### 4 - finalGrade()
+// Écrivez une fonction, `finalGrade()`. Cela devrait:
+
+// prendre trois arguments de type numéro
+// trouve le `averagede` ces trois nombres
+// renvoie la note de la lettre (sous forme de chaîne) à laquelle `averagecorrespond`
+// return `Vous avez entré une note invalide.` si l'une des trois notes est inférieure à 0 ou supérieure à 100
+// 0-59 devrait revenir : `F`
+// 60-69 devrait revenir : `D`
+// 70-79 devrait revenir : `C`
+// 80-89 devrait revenir : `B`
+// 90-100 devrait revenir :`A`
+
+const finalGrade = (note1, note2, note3) => {
+    //Vérification de la valeurs de chaque notes
+    if(note1 < 0 || note1 > 100 && note2 < 0 || note2 > 100 && note3 < 0 || note3 > 100){
+        return 'You have entered an invalid grade.';
+    };
+    let average = (note1 + note2 + note3) / 3;
+    if(average >= 0 && average <= 59){
+        return 'F';
+    }else if(average >= 60 && average <= 69){
+        return 'D';
+    }else if(average >= 70 && average <= 79){
+        return 'C';
+    }else if(average >= 80 && average <= 89){
+        return 'B';
+    }else if(average >= 90 && average <= 100){
+        return 'A';
+    }else{
+        return 'You have entered an invalid grade.';
+    };
+};

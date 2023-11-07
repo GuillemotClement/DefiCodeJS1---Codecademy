@@ -27,6 +27,22 @@ Voici les classifications :
 65-140 devrait renvoyer `'senior citizen'`
 Si le nombre est inférieur à 0 ou supérieur à 140, le programme devrait renvoyer `'This is not a valid age'`
 
+### 4 - finalGrade()
+Écrivez une fonction, `finalGrade()`. Cela devrait:
+
+- prendre trois arguments de type numéro
+- trouve le `averagede` ces trois nombres
+- renvoie la note de la lettre (sous forme de chaîne) à laquelle `averagecorrespond`
+- return `Vous avez entré une note invalide.` si l'une des trois notes est inférieure à 0 ou supérieure à 100
+- 0-59 devrait revenir : `F`
+- 60-69 devrait revenir : `D`
+- 70-79 devrait revenir : `C`
+- 80-89 devrait revenir : `B`
+- 90-100 devrait revenir :`A`
+
+Pour améliorer l'exo, créer des fonctions spécialisées pour chaque tâches
+
+
 ## ![Amelioration Logo](/ressource/ameliorationLogo.png) Amélioration future
 
 
